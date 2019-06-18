@@ -19,6 +19,11 @@ namespace GB_Arch_Patterns_Brizhak_HW07_01
     {
         static void Main(string[] args)
         {
+            var order1 = new Order();
+            UpsStrategy upsStrategy = new UpsStrategy();
+            var cost = new StrategyCostCalculation(upsStrategy).CalculateShippingCost(order1);
+            Console.WriteLine(cost);
+            Console.ReadKey();
         }
     }
 }
