@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GB_Arch_Patterns_Brizhak_HW07_01
 {
-    public class EmsStrategy
+    public class EmsStrategy : IShippingStrategy
     {
         public double Calculate(Order order) => 3;
     }
