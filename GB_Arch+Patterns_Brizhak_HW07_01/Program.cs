@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+// ДЗ к уроку 7 по курсу "Архитектуры и шаблоны проектирования " Брижак Андрей 
 // 1. Реализовать шаблон «Стратегия» без использования делегатов.
 // При решении задачи следует
 // использовать следующий интерфейс:
