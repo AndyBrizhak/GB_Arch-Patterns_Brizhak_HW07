@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Address.cs" />
     <Compile Include="EMSStrategy.cs" />
+    <Compile Include="FedexStrategy.cs" />
     <Compile Include="IShippingStrategy.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
